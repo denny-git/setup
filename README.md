@@ -75,3 +75,20 @@ Choose a wav file that was supplied with the speech-to-text code in `\student_nn
 
 ![](https://github.com/denny-git/setup/blob/master/text_from_wav_upload.jpg)
 
+# Testing out the Windows Forms app with speech-to-text capability
+
+## Prerequisites
+Always ensure that the speech-to-text server is already running before you run the Windows Forms app.
+
+## How to use
+This is what the new UI looks like:
+
+![](https://github.com/denny-git/setup/blob/master/winform.jpg)
+
+Click "Normal Audio" to begin recording. When done, click it again to stop recording.
+
+Audio is sent to the server for transcription immediately after you stop recording. The entire program will freeze for some time while waiting for a response from the speech-to-text server, which could take > 10 seconds. An example of a completed transcription is shown below (audio taken from a radio news broadcast).
+
+![](https://github.com/denny-git/setup/blob/master/winforms_with_text.jpg)
+
+Transcribed text appears in the box with the disabled scroll bar. The "Status" box and "Send audio" buttons currently do not do anything and may be ignored.
