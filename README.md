@@ -1,4 +1,4 @@
-# winform-setup
+# setup
 
 ## Installing libcurl (to enable sending of audio file to the server)
 
